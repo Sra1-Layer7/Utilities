@@ -1,0 +1,7 @@
+{
+  "goid": "de5580193baf6827f6ff69746c3adc14",
+  "name": "otk.oauth2.mtls.enable_thumbprint_validation",
+  "checksum": "ae26517ff72b2c37bf8c23614d1eca76aa408134",
+  "hiddenProperty": false,
+  "value": "true"
+}

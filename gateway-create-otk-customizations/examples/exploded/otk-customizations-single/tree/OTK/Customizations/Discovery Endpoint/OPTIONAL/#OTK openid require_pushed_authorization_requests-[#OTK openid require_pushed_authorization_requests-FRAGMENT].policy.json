@@ -1,0 +1,12 @@
+{
+  "goid": "4ddfa454f4df41fbf734f3653ed325f2",
+  "guid": "cc81e356-cdef-4be9-9763-5bec0bbce38f",
+  "name": "#OTK openid require_pushed_authorization_requests",
+  "policyType": "FRAGMENT",
+  "checksum": "efec3aee9fa6c50389f1e8c72a228587ab5a3448",
+  "folderPath": "/OTK/Customizations/Discovery Endpoint/OPTIONAL",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Target Configuration Policy: &quot;OTK openid require_pushed_authorization_requests&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Add OpenID Support for require_pushed_authorization_requests\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Specify true indicating support. If omitted, the default value is false\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Example: false\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Set custom values for Context Variables below ===\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Add any new Context Variables or extensions below ===\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

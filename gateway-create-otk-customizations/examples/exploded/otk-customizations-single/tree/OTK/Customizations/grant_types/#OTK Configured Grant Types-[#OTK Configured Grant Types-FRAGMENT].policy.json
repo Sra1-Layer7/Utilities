@@ -1,0 +1,12 @@
+{
+  "goid": "24e6fd7c5b6fb3a96690246c8ac55334",
+  "guid": "c56d7a34-3b7c-4e8a-9f00-068a355f628e",
+  "name": "#OTK Configured Grant Types",
+  "policyType": "FRAGMENT",
+  "checksum": "bc94a430f42f94901851b2c826ef8ae214111655",
+  "folderPath": "/OTK/Customizations/grant_types",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Target Configuration Policy: &quot;OTK Configured Grant Types&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Set custom values for Context Variables below ===\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== To add new custom grant types, set the variable &quot;grant_type_custom&quot; to a ===\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== space separated list (for multiple grant types) ===\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"== Enable the two lines below to enable custom grant types\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"== Implement custom grant type in OTK grant_type=CUSTOM\"/>\n        </L7p:CommentAssertion>\n        <L7p:SetVariable>\n            <L7p:Base64Expression stringValue=\"Z3JhbnRUeXBlQ3VzdG9tMSBncmFudFR5cGVDdXN0b20y\"/>\n            <L7p:Enabled booleanValue=\"false\"/>\n            <L7p:VariableToSet stringValue=\"grant_type_custom\"/>\n        </L7p:SetVariable>\n        <L7p:ExportVariables>\n            <L7p:Enabled booleanValue=\"false\"/>\n            <L7p:ExportedVars stringArrayValue=\"included\">\n                <L7p:item stringValue=\"grant_type_custom\"/>\n            </L7p:ExportedVars>\n        </L7p:ExportVariables>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

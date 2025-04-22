@@ -1,0 +1,12 @@
+{
+  "goid": "fcbd232631c6c3fe4798b51e4568aad9",
+  "guid": "2223d093-3c53-49b8-9b33-5ec88d109360",
+  "name": "#OTK id_token Custom Claims",
+  "policyType": "FRAGMENT",
+  "checksum": "50eccd2026088020b20cede8df6732f046793672",
+  "folderPath": "/OTK/Customizations/id_token",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: #OTK id_token Custom Claim\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"== Target Policy:  &quot;OTK id_token Generation&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"== Custom claims for id_token with name &amp; value as JSON has be set in ${custom_claims}\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"== Sample JSON: { &quot;claim1&quot;: &quot;value1&quot;,  &quot;claim2&quot;: &quot;value2&quot; }\"/>\n        </L7p:CommentAssertion>\n        <L7p:SetVariable>\n            <L7p:AssertionComment assertionComment=\"included\">\n                <L7p:Properties mapValue=\"included\">\n                    <L7p:entry>\n                        <L7p:key stringValue=\"RIGHT.COMMENT\"/>\n                        <L7p:value stringValue=\"//Add custom claims as JSON\"/>\n                    </L7p:entry>\n                </L7p:Properties>\n            </L7p:AssertionComment>\n            <L7p:Base64Expression stringValue=\"\"/>\n            <L7p:VariableToSet stringValue=\"custom_claims\"/>\n        </L7p:SetVariable>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

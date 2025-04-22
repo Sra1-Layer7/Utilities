@@ -1,0 +1,12 @@
+{
+  "goid": "d10740c6b2b6fb4b46bfaef8ade40ad8",
+  "guid": "0a62d60d-9027-45ee-8bde-de33f93b5e47",
+  "name": "#OTK Token Introspection",
+  "policyType": "FRAGMENT",
+  "checksum": "4a5435c3e3b8eb24880f75f85ff6a6cc849fc4b2",
+  "folderPath": "/OTK/Customizations/Token Server",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: #OTK Token Introspection\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

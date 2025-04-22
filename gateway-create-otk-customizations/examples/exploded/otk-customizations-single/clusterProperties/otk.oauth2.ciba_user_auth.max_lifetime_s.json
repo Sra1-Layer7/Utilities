@@ -1,0 +1,7 @@
+{
+  "goid": "0ad3d25a48cf4b75c0a6cd208cd411ea",
+  "name": "otk.oauth2.ciba_user_auth.max_lifetime_s",
+  "checksum": "08a255fb8b697775fa169519025c407ae9f65a44",
+  "hiddenProperty": false,
+  "value": "300"
+}

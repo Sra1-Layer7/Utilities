@@ -1,0 +1,12 @@
+{
+  "goid": "1fad231a4cd7a16592b8c7de83b25932",
+  "guid": "08572488-58f3-4e40-babd-623926c306ec",
+  "name": "OTK Cookie Management Configuration",
+  "policyType": "FRAGMENT",
+  "checksum": "1c2e6db1bf06798d7fa135be8d269ed65a43cd44",
+  "folderPath": "/OTK/Customizations/authentication",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"The value of cookieKey is used to created a signed cookie\"/>\n        </L7p:CommentAssertion>\n        <L7p:SetVariable>\n            <L7p:AssertionComment assertionComment=\"included\">\n                <L7p:Properties mapValue=\"included\">\n                    <L7p:entry>\n                        <L7p:key stringValue=\"LEFT.COMMENT\"/>\n                        <L7p:value stringValue=\"Change\"/>\n                    </L7p:entry>\n                </L7p:Properties>\n            </L7p:AssertionComment>\n            <L7p:Base64Expression stringValue=\"MzY3YzI4MDYtMTFhNi00NzRjLTgxYzEtMDE0MTAxOTllZTgz\"/>\n            <L7p:VariableToSet stringValue=\"cookieKey\"/>\n        </L7p:SetVariable>\n        <L7p:ExportVariables>\n            <L7p:ExportedVars stringArrayValue=\"included\">\n                <L7p:item stringValue=\"cookieKey\"/>\n                <L7p:item stringValue=\"cookieName\"/>\n            </L7p:ExportedVars>\n        </L7p:ExportVariables>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "goid": "0ad3d25a48cf4b75c0a6cd208cd411eb",
+  "name": "otk.oauth2.ciba_token_endpoint_polling_interval_s",
+  "checksum": "ed3c67479cbb2e253822bf375071f7dc167fc9d2",
+  "hiddenProperty": false,
+  "value": "5"
+}

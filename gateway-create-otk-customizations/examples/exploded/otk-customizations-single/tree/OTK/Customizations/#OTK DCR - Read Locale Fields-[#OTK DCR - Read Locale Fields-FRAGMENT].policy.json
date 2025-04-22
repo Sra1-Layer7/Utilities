@@ -1,0 +1,12 @@
+{
+  "goid": "ac18358f0594c5b5dd04fa60896608d4",
+  "guid": "53c32d6f-2a3e-473d-b06b-7a4880655931",
+  "name": "#OTK DCR - Read Locale Fields",
+  "policyType": "FRAGMENT",
+  "checksum": "a37368740d70440d594d2e9b3c3f8aaf6a5b47f3",
+  "folderPath": "/OTK/Customizations",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: #OTK DCR Read Locale Fields\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Add logic to extract if locale-specific values have been provided in the request\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"An example has been provided below. The values set below should be used in #OTK DCR Response Compose Locale Fields \"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Any error generated here is not being handled.\"/>\n        </L7p:CommentAssertion>\n        <L7p:EvaluateJsonPathExpression>\n            <L7p:Enabled booleanValue=\"false\"/>\n            <L7p:Expression stringValue=\"client_name#ja-Jpan-JP\"/>\n            <L7p:OtherTargetMessageVariable stringValue=\"client_request\"/>\n            <L7p:Target target=\"OTHER\"/>\n            <L7p:VariablePrefix stringValue=\"client_name_locale\"/>\n        </L7p:EvaluateJsonPathExpression>\n        <L7p:SetVariable>\n            <L7p:Base64Expression stringValue=\"JHtjbGllbnRfbmFtZV9sb2NhbGUucmVzdWx0fQ==\"/>\n            <L7p:Enabled booleanValue=\"false\"/>\n            <L7p:VariableToSet stringValue=\"client_name_locale\"/>\n        </L7p:SetVariable>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "goid": "604c1b4e0d1763891f599dabd2f72fbf",
+  "guid": "abe827b9-c269-4447-87eb-059438bf022f",
+  "name": "#OTK CIBA Request Validation",
+  "policyType": "FRAGMENT",
+  "checksum": "076470741d1fa0cb8333c1b555c2b78bd0945ed2",
+  "folderPath": "/OTK/Customizations/Authorization Server",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: #OTK CIBA Request Validation\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Customize this policy to add additional validations for CIBA request parameters\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

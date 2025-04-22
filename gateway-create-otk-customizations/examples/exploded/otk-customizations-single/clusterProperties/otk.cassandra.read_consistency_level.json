@@ -1,0 +1,7 @@
+{
+  "goid": "7fd1d8d297f99b30d61e229ee95abc1f",
+  "name": "otk.cassandra.read_consistency_level",
+  "checksum": "94cec55d8bced37fe72fd138b2f3985161f01da0",
+  "hiddenProperty": false,
+  "value": "LOCAL_QUORUM"
+}

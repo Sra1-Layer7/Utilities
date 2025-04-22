@@ -1,0 +1,12 @@
+{
+  "goid": "e04ad90cfcec38e51fbe3ed9fe093b13",
+  "guid": "3dc0b60f-011b-4bbf-9568-95b98bb44d26",
+  "name": "OTK CORS extension",
+  "policyType": "FRAGMENT",
+  "checksum": "37bd7b75cde98f6eb44870332871d4f2b278e201",
+  "folderPath": "/OTK/Customizations/cors",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\"/>\n</wsp:Policy>\n"
+  }
+}

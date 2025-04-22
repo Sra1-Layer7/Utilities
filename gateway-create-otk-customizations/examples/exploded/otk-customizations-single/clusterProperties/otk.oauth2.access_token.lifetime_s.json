@@ -1,0 +1,7 @@
+{
+  "goid": "7d26b3199c8af6547c045e438ce87bda",
+  "name": "otk.oauth2.access_token.lifetime_s",
+  "checksum": "bf26f1f51bc78ebc1da8b83ecaea1630dcb22984",
+  "hiddenProperty": false,
+  "value": "3600"
+}

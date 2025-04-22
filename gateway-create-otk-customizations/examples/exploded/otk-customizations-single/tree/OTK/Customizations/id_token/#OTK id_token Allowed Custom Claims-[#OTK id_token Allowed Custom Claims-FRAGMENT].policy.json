@@ -1,0 +1,12 @@
+{
+  "goid": "fcbd232631c6c3fe4798b51e4568aaf7",
+  "guid": "68ce345d-8f7e-41a0-8f0a-81ec59096884",
+  "name": "#OTK id_token Allowed Custom Claims",
+  "policyType": "FRAGMENT",
+  "checksum": "2ff8c3cf69aa701f4402d2177ddc20834e56baee",
+  "folderPath": "/OTK/Customizations/id_token",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: #OTK id_token Allowed Custom Claims\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"== Target Policy:  &quot;OTK id_token Validation&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"== A list of allowed custom claims for id_token can be set before OpenID Decode\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"== It should be a comma seperated list containing the names of the claims needs to set within ${allowed_claims}\"/>\n        </L7p:CommentAssertion>\n        <L7p:SetVariable>\n            <L7p:AssertionComment assertionComment=\"included\">\n                <L7p:Properties mapValue=\"included\">\n                    <L7p:entry>\n                        <L7p:key stringValue=\"RIGHT.COMMENT\"/>\n                        <L7p:value stringValue=\"// Add CSV of claims Example: claim1,claim2\"/>\n                    </L7p:entry>\n                </L7p:Properties>\n            </L7p:AssertionComment>\n            <L7p:Base64Expression stringValue=\"bWF5X2FjdA==\"/>\n            <L7p:VariableToSet stringValue=\"allowed_custom_claims\"/>\n        </L7p:SetVariable>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

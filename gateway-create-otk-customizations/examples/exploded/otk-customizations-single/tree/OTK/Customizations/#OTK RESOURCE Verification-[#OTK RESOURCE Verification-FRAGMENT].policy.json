@@ -1,0 +1,12 @@
+{
+  "goid": "1225fdf7a27685204f0f354b9edb8240",
+  "guid": "e5fd660c-5e2c-4df6-a8b5-f4b11eb0e417",
+  "name": "#OTK RESOURCE Verification",
+  "policyType": "FRAGMENT",
+  "checksum": "a45af4e0efee90006ec7022831b9bf29e484c3ab",
+  "folderPath": "/OTK/Customizations",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: #OTK RESOURCE Verification\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"This policy verifies if the configured required resource is present in the granted resource\"/>\n        </L7p:CommentAssertion>\n        <L7p:CustomAssertion>\n            <L7p:base64SerializedValue>rO0ABXNyADFjb20ubDd0ZWNoLnBvbGljeS5hc3NlcnRpb24uQ3VzdG9tQXNzZXJ0aW9uSG9sZGVyZtcreFwddTICAAlaAAxpc1VpQXV0b09wZW5MAApjYXRlZ29yaWVzdAAPTGphdmEvdXRpbC9TZXQ7TAAIY2F0ZWdvcnl0ACpMY29tL2w3dGVjaC9wb2xpY3kvYXNzZXJ0aW9uL2V4dC9DYXRlZ29yeTtMAA9jdXN0b21Bc3NlcnRpb250ADFMY29tL2w3dGVjaC9wb2xpY3kvYXNzZXJ0aW9uL2V4dC9DdXN0b21Bc3NlcnRpb247TAAUY3VzdG9tTW9kdWxlRmlsZU5hbWV0ABJMamF2YS9sYW5nL1N0cmluZztMAA9kZXNjcmlwdGlvblRleHRxAH4ABEwAD3BhbGV0dGVOb2RlTmFtZXEAfgAETAAOcG9saWN5Tm9kZU5hbWVxAH4ABEwAHnJlZ2lzdGVyZWRDdXN0b21GZWF0dXJlU2V0TmFtZXEAfgAEeHIAJWNvbS5sN3RlY2gucG9saWN5LmFzc2VydGlvbi5Bc3NlcnRpb27bX2OZPL2isQIAAloAB2VuYWJsZWRMABBhc3NlcnRpb25Db21tZW50dAAvTGNvbS9sN3RlY2gvcG9saWN5L2Fzc2VydGlvbi9Bc3NlcnRpb24kQ29tbWVudDt4cAFwAXNyABFqYXZhLnV0aWwuSGFzaFNldLpEhZWWuLc0AwAAeHB3DAAAABA/QAAAAAAAAXNyAChjb20ubDd0ZWNoLnBvbGljeS5hc3NlcnRpb24uZXh0LkNhdGVnb3J5WrCcZaFE/jUCAAJJAAVteUtleUwABm15TmFtZXEAfgAEeHAAAAALdAAQQ3VzdG9tQXNzZXJ0aW9uc3hwc3IAOGNvbS5sN3RlY2guY3VzdG9tLmF1dGgycmVzLlJlc291cmNlVmVyaWZpY2F0aW9uQXNzZXJ0aW9uCZy1lkGJbjcCAANMABNhbnlSZXNvdXJjZVJlcXVpcmVkcQB+AARMAA9yZXNvdXJjZUdyYW50ZWRxAH4ABEwAEHJlc291cmNlUmVxdWlyZWRxAH4ABHhwdAAYJHthbnlfcmVzb3VyY2VfcmVxdWlyZWR9dAATJHtyZXNvdXJjZS5ncmFudGVkfXQAFCR7cmVzb3VyY2UucmVxdWlyZWR9dAA0NTdiMGIzZTU4ZTRiNDEzYjMzZDEzOWFiZmI2MTNjYmUyMDZhN2Q4Mzk4MmIzZWY4LmphcnQAdVZhbGlkYXRlcyB0aGUgZ3JhbnRlZCBSRVNPVVJDRSBhZ2FpbnN0IHRoZSByZXF1aXJlZCBSRVNPVVJDRSBjb25maWd1cmVkIGluIHRoZSBhc3NlcnRpb24uIEl0IHdpbGwgZmFpbCBpZiBub25lIG1hdGNoLnQAGU9USyBSRVNPVVJDRSBWZXJpZmljYXRpb250ABlPVEsgUkVTT1VSQ0UgVmVyaWZpY2F0aW9ucA==</L7p:base64SerializedValue>\n        </L7p:CustomAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

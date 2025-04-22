@@ -1,0 +1,12 @@
+{
+  "goid": "ee2b318259fddfb67d44457e33a97872",
+  "guid": "3cc15781-acc6-42cc-8ca8-e8c6dbc27e90",
+  "name": "#OTK DAG Response",
+  "policyType": "FRAGMENT",
+  "checksum": "0c321917d5ce621402270bc73f4d360cafa4885a",
+  "folderPath": "/OTK/Customizations/Authorization Server",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: #OTK DAG Response\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

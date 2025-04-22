@@ -1,0 +1,12 @@
+{
+  "goid": "807eb656f40d0c44f9071a89fc1c0cde",
+  "guid": "c18ffd14-1724-48b6-9dba-624d2f3000d6",
+  "name": "#OTK Token Response",
+  "policyType": "FRAGMENT",
+  "checksum": "232653c225c858981024626316c517d9a751eb36",
+  "folderPath": "/OTK/Customizations/Token Server",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: #OTK Token Response\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Use this policy to customize token response\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

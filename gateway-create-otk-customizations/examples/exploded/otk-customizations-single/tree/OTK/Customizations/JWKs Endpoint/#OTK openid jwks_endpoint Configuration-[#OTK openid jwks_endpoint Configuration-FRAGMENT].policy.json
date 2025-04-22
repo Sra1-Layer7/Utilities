@@ -1,0 +1,12 @@
+{
+  "goid": "620c4be582d79f371cd50591a082f1db",
+  "guid": "b92f063c-57b1-4cae-a47c-27700af012a0",
+  "name": "#OTK openid jwks_endpoint Configuration",
+  "policyType": "FRAGMENT",
+  "checksum": "950cc410843962badbef62ae3e7c29c4c5bbd433",
+  "folderPath": "/OTK/Customizations/JWKs Endpoint",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Target Configuration Policy: &quot;OTK openid jwks_endpoint Configuration&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Set custom values for Context Variables below ===\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Add any new Context Variables or extensions below ===\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

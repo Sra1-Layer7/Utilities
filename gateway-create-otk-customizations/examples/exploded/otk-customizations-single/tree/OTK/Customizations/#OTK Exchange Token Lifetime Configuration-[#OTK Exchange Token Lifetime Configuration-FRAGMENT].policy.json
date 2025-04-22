@@ -1,0 +1,12 @@
+{
+  "goid": "32d13a9d800a291f6f627a23c9e6ec81",
+  "guid": "54ba189d-900a-4869-bd4c-4e9ef8432202",
+  "name": "#OTK Exchange Token Lifetime Configuration",
+  "policyType": "FRAGMENT",
+  "checksum": "efba8712e51c2014d4d2cbdde652e9d28742eed0",
+  "folderPath": "/OTK/Customizations",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: #OTK Exchange Token Lifetime Configuration\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Overwrite exchange token life time===\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Set  at_lifetime context vaiable  ===\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Subject of type 'access token' expiry - ${session.expires_at}   ===\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

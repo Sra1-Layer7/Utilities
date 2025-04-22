@@ -1,0 +1,7 @@
+{
+  "goid": "0c3729ca9f24cb4f2f55d363c7f7c4e3",
+  "name": "otk.id_token.signing_algorithm",
+  "checksum": "5e078173054bdfaf416c0c79496df0ea5c2ac008",
+  "hiddenProperty": false,
+  "value": "HS256"
+}

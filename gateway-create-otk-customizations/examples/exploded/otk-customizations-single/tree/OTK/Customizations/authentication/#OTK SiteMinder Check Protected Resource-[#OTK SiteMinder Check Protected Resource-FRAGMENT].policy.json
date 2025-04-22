@@ -1,0 +1,12 @@
+{
+  "goid": "c4bc0de10c1b6cad6bdb4e564db834b4",
+  "guid": "721e7ae9-e7d9-42f2-8965-f22a79b7de4e",
+  "name": "#OTK SiteMinder Check Protected Resource",
+  "policyType": "FRAGMENT",
+  "checksum": "9fd8db087af44a7ec814f3402986cf39787b6dd4",
+  "folderPath": "/OTK/Customizations/authentication",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Target Policy: &quot;OTK User Authentication Extension&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Target Policy: &quot;MAG Session Validation - Third Party SSO Token&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== If using SiteMinder, set your configuration below ===\"/>\n        </L7p:CommentAssertion>\n        <L7p:SiteMinderCheckProtected>\n            <L7p:Action stringValue=\"GET\"/>\n            <L7p:AgentId stringValue=\"siteminder-instance\"/>\n            <L7p:Prefix stringValue=\"siteminder\"/>\n            <L7p:ProtectedResource stringValue=\"/mode\"/>\n            <L7p:SmAgentName stringValue=\"agent\"/>\n        </L7p:SiteMinderCheckProtected>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

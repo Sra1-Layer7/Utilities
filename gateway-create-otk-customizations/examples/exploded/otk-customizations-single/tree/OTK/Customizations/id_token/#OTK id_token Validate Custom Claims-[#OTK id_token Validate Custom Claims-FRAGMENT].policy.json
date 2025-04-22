@@ -1,0 +1,12 @@
+{
+  "goid": "0f00b81ce00ecbfd0c2cd7a6bc2c1542",
+  "guid": "d881a6b7-113c-4688-8a9c-17f5c0426972",
+  "name": "#OTK id_token Validate Custom Claims",
+  "policyType": "FRAGMENT",
+  "checksum": "b78d8824ad1d809b68d7566fe19d369aa0aca64b",
+  "folderPath": "/OTK/Customizations/id_token",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: #OTK id_token Validate Custom Claims\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"== Target Policy:  &quot;OTK id_token Validation&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"==  Customize id_token custom claim validation\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"== The custom claims extracted from id_token are available within the context variable: didt.*\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"== Sample Variable to extract value of custom claim1:  didt.claim1\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"== Add additional validations for custom claims after OpendID decode\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "goid": "bc9a31b7578652a08a514d7d4fef1fb7",
+  "guid": "105d3617-d61c-4c83-a952-2ed5a93425e9",
+  "name": "#OTK Client Context Variables",
+  "policyType": "FRAGMENT",
+  "checksum": "9d155ffe5f23615e4be52b521cd4790f450571fb",
+  "folderPath": "/OTK/Customizations/Tools",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Target Configuration Policy: &quot;OTK Client Context Variable&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Set custom values for Context Variables below ===\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Set Context Variables to override their values in the target policy below ===\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

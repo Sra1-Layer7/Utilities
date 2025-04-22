@@ -1,0 +1,7 @@
+{
+  "goid": "cf167b564434be66be5c46c64062e01a",
+  "name": "otk.open_banking_directory.jwks_url",
+  "checksum": "410e2f7d16187839008440ed85a165cae2202fa4",
+  "hiddenProperty": false,
+  "value": "https://<<open_banking_directory_jwks_uri>>"
+}

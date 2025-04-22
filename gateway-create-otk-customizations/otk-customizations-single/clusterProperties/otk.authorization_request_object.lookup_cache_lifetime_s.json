@@ -1,0 +1,7 @@
+{
+  "goid": "6ab033d24be7900bfc748a7cffe37730",
+  "name": "otk.authorization_request_object.lookup_cache_lifetime_s",
+  "checksum": "6873688765fc6b06734103abb968cddbcdde14ed",
+  "hiddenProperty": false,
+  "value": "60"
+}

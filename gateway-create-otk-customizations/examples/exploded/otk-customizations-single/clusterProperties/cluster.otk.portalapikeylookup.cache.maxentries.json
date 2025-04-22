@@ -1,0 +1,7 @@
+{
+  "goid": "d40638e53c8d106a9ea632841888bed8",
+  "name": "cluster.otk.portalapikeylookup.cache.maxentries",
+  "checksum": "d12e33ebda73552fccadac03f523d577291619b5",
+  "hiddenProperty": false,
+  "value": "10000"
+}

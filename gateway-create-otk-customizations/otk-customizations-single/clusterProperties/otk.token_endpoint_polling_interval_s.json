@@ -1,0 +1,7 @@
+{
+  "goid": "ee2b318259fddfb67d44457e33a9ab01",
+  "name": "otk.token_endpoint_polling_interval_s",
+  "checksum": "dd870848dfd524f809b97279857d4c43490b0cbf",
+  "hiddenProperty": false,
+  "value": "5"
+}
