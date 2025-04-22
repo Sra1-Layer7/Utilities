@@ -1,5 +1,5 @@
 ## Creating your OTK Customizations Repository
-An important part of admininstering the OTK is managing customizations. The Gateway Helm Chart and Layer Operator provide a way to both install and maintain these customizations, this example details how to go about exporting customizations from a development gateway for storage in source control. These can then be applied to your Gateways pre or post boot.
+An important part of administering the OTK is managing customizations. The Gateway Helm Chart and Layer Operator provide a way to both install and maintain these customizations, this example details how to go about exporting customizations from a development gateway for storage in source control. These can then be applied to your Gateways pre or post boot.
 
 ### Running the Gateway in Ephemeral Mode
 When using the Gateway in Ephemeral mode (no mysql policy database) with the Gateway Helm Chart, these customizations will need to be bootstrapped using an [initContainer](https://github.com/Layer7-Community/Utilities/tree/main/gateway-init-container-examples). Your initContainer will work across both Gateway Helm Chart and Layer7 Operator.
@@ -43,12 +43,17 @@ The [Layer7 Operator](https://github.com/caapim/layer7-operator) supports dynami
     }
     ```
 
+### The Examples Folder
+The [examples folder](./examples) contains
+- An exported customizations folder (OTK v4.6.4)
+  - in single (imploded) graphman bundle format that can be used if you don't have access to a Gateway with the OTK installed
+  - the same graphman bundle in expanded (exploded) format
+
 ### Guide
 - [Export your customizations](#export-your-customizations)
 - [Expand into file/folder format](#create-repositories)
 - [Update your customizations](#create-a-gateway)
 - [Next Steps](#next-steps)
-- [Examples Folder](#examples-folder)
 
 ### Export your customizations
 This command will export the /OTK/Customizations folder from your gateway and place it into a file called otk-single.json
@@ -75,7 +80,3 @@ You can either publish ([Github Example](https://docs.github.com/en/repositories
 
 InitContainers work with both the Gateway Helm Chart and Layer7 Operator. If you are using a database backed gateway you can import these changes manually using the graphman-client or automate that as part of a CI/CD pipeline.
 
-### Examples Folder
-The [examples folder](./examples) contains
-- an exported customizations folder in single or imploded graphman bundle format that you can use to get started if you don't have access to a Gateway with the OTK installed
-- the same graphman bundle in expanded or exploded format
