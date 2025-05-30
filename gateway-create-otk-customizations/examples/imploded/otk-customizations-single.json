@@ -8,6 +8,34 @@
       "value": "0"
     },
     {
+      "goid": "37a4ab6b7c387a0d250a59237eec8d23",
+      "name": "otk.client.activity_tracker.enabled",
+      "checksum": "188e29801b800805883d16d80717da399e3e9bc3",
+      "hiddenProperty": false,
+      "value": "false"
+    },
+    {
+      "goid": "37a4ab6b7c387a0d250a59237eec8d27",
+      "name": "otk.client.activity_tracker.update_interval_d",
+      "checksum": "40440bc5293f62483e0420fdc67b73dfbf8ad46c",
+      "hiddenProperty": false,
+      "value": "1"
+    },
+    {
+      "goid": "7d26b3199c8af6547c045e438ce87b62",
+      "name": "otk.dmz.private_key.name",
+      "checksum": "317e4417acaccd1bc31ce5ba8cb920513ba54a13",
+      "hiddenProperty": false,
+      "value": "default"
+    },
+    {
+      "goid": "07418d77b09673fd0b8ef471542ea415",
+      "name": "otk.openid.dcr_security.enabled",
+      "checksum": "1911a8042fe764fcbe0ef4edb0b710e80709969b",
+      "hiddenProperty": false,
+      "value": "false"
+    },
+    {
       "goid": "d40638e53c8d106a9ea632841888bed8",
       "name": "cluster.otk.portalapikeylookup.cache.maxentries",
       "checksum": "d12e33ebda73552fccadac03f523d577291619b5",

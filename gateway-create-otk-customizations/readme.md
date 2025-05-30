@@ -15,7 +15,7 @@ The [Layer7 Operator](https://github.com/caapim/layer7-operator) supports dynami
   - Internal -->
 
 ### Pre-requisites
-- A Gateway with the OTK installed (v4.6.3+)
+- A Gateway with the OTK installed (v4.6.4+)
   - If you don't have a Gateway with the OTK available you can create one using the following guides
     - [Layer7 Operator](https://github.com/CAAPIM/layer7-operator/tree/main/example/otk/single)
     - [Gateway Helm Chart](https://github.com/CAAPIM/apim-charts/tree/stable/examples/otk#quick-start)
