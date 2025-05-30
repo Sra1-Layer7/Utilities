@@ -1,0 +1,7 @@
+{
+  "goid": "e7307eb219c3d561ebdcdfa4f4fb45eb",
+  "name": "otk.token_purging_limit",
+  "checksum": "2a13af19ddfc8ade4a0f70e195bde71a28943b25",
+  "hiddenProperty": false,
+  "value": "40000"
+}

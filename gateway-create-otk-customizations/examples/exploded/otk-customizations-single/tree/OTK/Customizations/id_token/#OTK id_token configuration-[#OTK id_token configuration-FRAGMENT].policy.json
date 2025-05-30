@@ -1,0 +1,12 @@
+{
+  "goid": "24e6fd7c5b6fb3a96690246c8ac492d4",
+  "guid": "b8d40c59-c97f-455a-806a-2c1b98579dfc",
+  "name": "#OTK id_token configuration",
+  "policyType": "FRAGMENT",
+  "checksum": "4b1b4b40059751d7e1d54c5ed6b48c454773aa2b",
+  "folderPath": "/OTK/Customizations/id_token",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Target Configuration Policy: &quot;OTK id_token configuration&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Set custom values for Context Variables below ===\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Add any new Context Variables or extensions below ===\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

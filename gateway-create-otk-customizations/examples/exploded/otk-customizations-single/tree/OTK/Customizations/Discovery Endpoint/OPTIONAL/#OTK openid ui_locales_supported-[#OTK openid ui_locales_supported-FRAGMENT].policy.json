@@ -1,0 +1,12 @@
+{
+  "goid": "f89167f8313de549f22cba18da490622",
+  "guid": "052c4119-2529-44e9-a564-bed30c46953e",
+  "name": "#OTK openid ui_locales_supported",
+  "policyType": "FRAGMENT",
+  "checksum": "c6b46e58a05ea98a83e49b5ec8e98905ac180aa8",
+  "folderPath": "/OTK/Customizations/Discovery Endpoint/OPTIONAL",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Target Configuration Policy: &quot;OTK openid ui_locales_supported&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Specify a comma separated list of values with each value within double-quotes\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Example: &quot;value01&quot;, &quot;value02&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"NOTE: OTK currently does not support any other locales\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Set custom values for Context Variables below ===\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Add any new Context Variables or extensions below ===\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

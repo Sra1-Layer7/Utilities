@@ -1,0 +1,12 @@
+{
+  "goid": "a68dd182c1a10eeab254df45a9357806",
+  "guid": "7e940247-3284-4f6b-a445-66e368fc484a",
+  "name": "#OTK CIBA User Authentication Status",
+  "policyType": "FRAGMENT",
+  "checksum": "cf61dfef2b8a7e1b6759f8d554414b24d86ec73f",
+  "folderPath": "/OTK/Customizations/Authorization Server",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: #OTK CIBA User Authentication Status\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Fetch and update the  User Auth Status. This policy is called from 'OTK CIBA Auth Request ID Validation' as part of the /v2/token service flow.\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Auth Status ctx variable - authStatus (INITIATED/EXPIRED/REJECTED/ACCEPTED)\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Auth Time ctx variable - auth_time (optional - epoch time)\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Optionally also set - acr_values, response_type, scope_granted, state, salt, nonce\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Please ref to 'OTK CIBA Auth Request ID Validation' for the context variables available here.\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

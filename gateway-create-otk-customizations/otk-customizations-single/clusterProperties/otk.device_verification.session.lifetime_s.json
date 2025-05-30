@@ -1,0 +1,7 @@
+{
+  "goid": "cc1863dcc6f56bcbae9ab4c8b10fc695",
+  "name": "otk.device_verification.session.lifetime_s",
+  "checksum": "b507ad3c21453d109c03f339fe6921faab8a2bb8",
+  "hiddenProperty": false,
+  "value": "3600"
+}

@@ -1,0 +1,12 @@
+{
+  "goid": "ee584be1e96bafe0b0c5421f69e1152e",
+  "guid": "2da0f582-8ee6-4c8e-8f1d-c98edff1e6bc",
+  "name": "#OTK openid userinfo_signing_alg_values_supported",
+  "policyType": "FRAGMENT",
+  "checksum": "7d9019d870cad9412672db339323f16de61c3a7d",
+  "folderPath": "/OTK/Customizations/Discovery Endpoint/OPTIONAL",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Target Configuration Policy: &quot;OTK openid userinfo_signing_alg_values_supported&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Set custom values for Context Variables below ===\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Add any new Context Variables or extensions below ===\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

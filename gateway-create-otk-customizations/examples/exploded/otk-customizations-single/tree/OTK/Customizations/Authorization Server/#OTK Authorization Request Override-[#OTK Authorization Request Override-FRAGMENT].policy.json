@@ -1,0 +1,12 @@
+{
+  "goid": "16cbb9cfd08527227e8b9fcda61dba20",
+  "guid": "948c35f6-030c-4e3f-992f-9d4776bf3e63",
+  "name": "#OTK Authorization Request Override",
+  "policyType": "FRAGMENT",
+  "checksum": "56c36fcd0d0e9778f17e6cb994c0d93b31889f78",
+  "folderPath": "/OTK/Customizations/Authorization Server",
+  "soap": false,
+  "policy": {
+    "xml": "<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: #OTK Authz Request Override\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>"
+  }
+}

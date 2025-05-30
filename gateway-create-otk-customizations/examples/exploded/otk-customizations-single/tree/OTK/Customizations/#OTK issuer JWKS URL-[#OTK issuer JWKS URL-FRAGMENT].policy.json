@@ -1,0 +1,12 @@
+{
+  "goid": "72643c91d7d1969cec81b789b31262e5",
+  "guid": "adb2ead2-dfde-423c-968c-79bef74b1f30",
+  "name": "#OTK issuer JWKS URL",
+  "policyType": "FRAGMENT",
+  "checksum": "2f2490d8a2374d3deda5ba912d3be1527f90e77a",
+  "folderPath": "/OTK/Customizations",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: #OTK issuer JWKS URL\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"input: issuer\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"output: jwks_url\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"output: jwks\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"NOTE: Ensure setting jwks when jwks_url is not defined.\"/>\n        </L7p:CommentAssertion>\n        <L7p:MapValue>\n            <L7p:InputExpr stringValue=\"${issuer}\"/>\n            <L7p:Mappings nameValuePairArray=\"included\">\n                <L7p:item nameValuePair=\"included\">\n                    <L7p:Key stringValue=\"https://${gateway.cluster.hostname}:${gateway.otk.port}\"/>\n                    <L7p:Value stringValue=\"https://${gateway.cluster.hostname}:${gateway.otk.port}/openid/connect/jwks.json\"/>\n                </L7p:item>\n            </L7p:Mappings>\n            <L7p:OutputVar stringValue=\"jwks_url\"/>\n        </L7p:MapValue>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

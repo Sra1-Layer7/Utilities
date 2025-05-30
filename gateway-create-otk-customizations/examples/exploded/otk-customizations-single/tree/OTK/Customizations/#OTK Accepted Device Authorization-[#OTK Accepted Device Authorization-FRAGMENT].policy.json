@@ -1,0 +1,12 @@
+{
+  "goid": "b9bd22a09c0b817f6d13861f956b7879",
+  "guid": "92ec790c-b644-41bf-9034-5d2ba8581f8b",
+  "name": "#OTK Accepted Device Authorization",
+  "policyType": "FRAGMENT",
+  "checksum": "b41cabac1158d75f53b2a1be8b89f76bfd507092",
+  "folderPath": "/OTK/Customizations",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\" ============================================\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: #OTK Accepted Device Authorization\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Target Policy: OTK DAG Authorization Code Validation\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"This policy fragment can be used for persisting device details\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Device details can be taken from xpathCustom.result\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

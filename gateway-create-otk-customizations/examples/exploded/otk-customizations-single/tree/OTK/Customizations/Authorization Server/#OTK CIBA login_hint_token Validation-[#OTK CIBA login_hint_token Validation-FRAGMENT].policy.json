@@ -1,0 +1,12 @@
+{
+  "goid": "758c91d75c19e23371bd54d8f0c40c24",
+  "guid": "f5b5e9b4-28cf-4af1-9017-baf6d0d3f612",
+  "name": "#OTK CIBA login_hint_token Validation",
+  "policyType": "FRAGMENT",
+  "checksum": "7873a3104382bbb7f82e2de5a8df3b4f638c7717",
+  "folderPath": "/OTK/Customizations/Authorization Server",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: #OTK CIBA login_hint_token Validation\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Customize this policy to add additional validations for login_hint_token\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Ensure to set any new field including resource_owner within user_info\"/>\n        </L7p:CommentAssertion>\n        <L7p:SetVariable>\n            <L7p:Base64Expression stringValue=\"ew0KCSAiYmluZGluZ19tZXNzYWdlIjogIiR7YmluZGluZ19tZXNzYWdlfSIsDQoJICJyZXNvdXJjZV9vd25lciI6ICAgIiINCn0=\"/>\n            <L7p:ContentType stringValue=\"application/json; charset=utf-8\"/>\n            <L7p:DataType variableDataType=\"message\"/>\n            <L7p:VariableToSet stringValue=\"user_info\"/>\n        </L7p:SetVariable>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

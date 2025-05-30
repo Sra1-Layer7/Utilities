@@ -1,0 +1,12 @@
+{
+  "goid": "f89167f8313de549f22cba18da49059d",
+  "guid": "70ccbaf5-25ca-42eb-a074-b11acd7b24a6",
+  "name": "#OTK openid acr_values_supported",
+  "policyType": "FRAGMENT",
+  "checksum": "f51e5d412a8791a9a4ac76040ff773ccf9e0d252",
+  "folderPath": "/OTK/Customizations/Discovery Endpoint/OPTIONAL",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Target Configuration Policy: &quot;OTK openid acr_values_supported&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Add OpenID Supported Authentication Context References (ACR)\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Specify a comma separated list of values with each value within double-quotes\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Example: &quot;value01&quot;, &quot;value02&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Set custom values for Context Variables below ===\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Add any new Context Variables or extensions below ===\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

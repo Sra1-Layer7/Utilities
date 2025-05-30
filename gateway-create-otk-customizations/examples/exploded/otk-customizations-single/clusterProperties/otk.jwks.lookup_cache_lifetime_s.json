@@ -1,0 +1,7 @@
+{
+  "goid": "ce71d24f2e5c1b26a2145df207944bc7",
+  "name": "otk.jwks.lookup_cache_lifetime_s",
+  "checksum": "01106aa4f597d5c0fdd6a8fdf490bd50b02b06a3",
+  "hiddenProperty": false,
+  "value": "60"
+}

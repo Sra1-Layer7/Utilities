@@ -1,0 +1,12 @@
+{
+  "goid": "f89167f8313de549f22cba18da49053e",
+  "guid": "d7554077-886c-44eb-a7f4-cc8c3b1aafd8",
+  "name": "#OTK openid display_values_supported",
+  "policyType": "FRAGMENT",
+  "checksum": "9d80da7763447d93cd083fb6da541bee58cea6ef",
+  "folderPath": "/OTK/Customizations/Discovery Endpoint/OPTIONAL",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Target Configuration Policy: &quot;OTK openid display_values_supported&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Add OpenID Supported Display Values\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Specify a comma separated list of values with each value within double-quotes\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Example: &quot;value01&quot;, &quot;value02&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Set custom values for Context Variables below ===\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Add any new Context Variables or extensions below ===\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

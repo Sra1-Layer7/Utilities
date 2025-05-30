@@ -1,0 +1,12 @@
+{
+  "goid": "f89167f8313de549f22cba18da49040e",
+  "guid": "81045f18-9cfd-4d90-9c96-c2490ddd2aec",
+  "name": "#OTK openid subject_types_supported",
+  "policyType": "FRAGMENT",
+  "checksum": "e21ff87507f2b98895bcf89f0a33ac2256896d43",
+  "folderPath": "/OTK/Customizations/Discovery Endpoint/REQUIRED",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Target Configuration Policy: &quot;OTK openid subject_types_supported&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Set custom values for Context Variables below ===\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Add any new Context Variables or extensions below ===\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

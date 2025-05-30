@@ -1,0 +1,12 @@
+{
+  "goid": "24e6fd7c5b6fb3a96690246c8ac55357",
+  "guid": "6d0bfc66-e1bb-4f4e-80bf-1b4ae85d119b",
+  "name": "#OTK CORS",
+  "policyType": "FRAGMENT",
+  "checksum": "527de5877f0cb77521c3177a255991845aa84460",
+  "folderPath": "/OTK/Customizations/cors",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Target Configuration Policy: &quot;OTK CORS&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Set custom values for Context Variables below ===\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== To enable custom CORS logic, set 'useDefaultCors' to false ===\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== And implement custom handling in OTK CORS extension\"/>\n        </L7p:CommentAssertion>\n        <L7p:SetVariable>\n            <L7p:Base64Expression stringValue=\"dHJ1ZQ==\"/>\n            <L7p:VariableToSet stringValue=\"useDefaultCors\"/>\n        </L7p:SetVariable>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

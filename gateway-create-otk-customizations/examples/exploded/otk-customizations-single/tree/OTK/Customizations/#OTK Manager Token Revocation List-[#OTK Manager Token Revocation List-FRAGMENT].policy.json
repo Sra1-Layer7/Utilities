@@ -1,0 +1,12 @@
+{
+  "goid": "60d3a4f2b00768220e56c1731f7a58a1",
+  "guid": "fe24b7c2-9d8b-4af3-aade-d808d98ae208",
+  "name": "#OTK Manager Token Revocation List",
+  "policyType": "FRAGMENT",
+  "checksum": "7e255c536b98701d6adc4438f2edaf82907b3b0c",
+  "folderPath": "/OTK/Customizations",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: #OTK Manager Token Revocation List\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"This policy provides option to add any logic to determine whether the token to be revoked should be added to token revocation list or not\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"For an example, Get the token details using token parameter and override token_revocation_list_enabled based on the token scope\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Input: token - token to be revoked\"/>\n        </L7p:CommentAssertion>\n        <L7p:SetVariable>\n            <L7p:Base64Expression stringValue=\"JHtnYXRld2F5Lm90ay50b2tlbl9yZXZvY2F0aW9uX2xpc3QuZW5hYmxlZH0=\"/>\n            <L7p:VariableToSet stringValue=\"token_revocation_list_enabled\"/>\n        </L7p:SetVariable>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

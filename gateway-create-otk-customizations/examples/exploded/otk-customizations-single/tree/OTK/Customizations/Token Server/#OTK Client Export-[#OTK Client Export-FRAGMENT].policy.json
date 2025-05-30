@@ -1,0 +1,12 @@
+{
+  "goid": "bc9a31b7578652a08a514d7d4fef34b5",
+  "guid": "67dfa1d5-3bc4-4196-b756-671e11b7db15",
+  "name": "#OTK Client Export",
+  "policyType": "FRAGMENT",
+  "checksum": "96671700bfc6c3f5b8a4b8568761eed19396bc88",
+  "folderPath": "/OTK/Customizations/Token Server",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"== Target Policy:  &quot;auth/oauth/v2/client/export&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"== set &quot;enableClientExport&quot; to true to enable client export\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

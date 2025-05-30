@@ -1,0 +1,12 @@
+{
+  "goid": "75d97bfe87badb85dee9ea06efcf001c",
+  "guid": "87a6a63d-7cc1-49bc-aab2-6e6c10e2659a",
+  "name": "OTK Client DB GET Extension",
+  "policyType": "FRAGMENT",
+  "checksum": "37611d683b3ee6a82113e2dd386049cae4682edd",
+  "folderPath": "/OTK/Customizations/persistence",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"== Target policy:  OTK Client DB GET\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"This policy will be executed instead of OTK Client DB GET\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"The main purpose is to support OTK with the Classic Portal\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Please insert the policy that is available via OTK documentation\"/>\n        </L7p:CommentAssertion>\n        <L7p:ComparisonAssertion>\n            <L7p:CaseSensitive booleanValue=\"false\"/>\n            <L7p:Expression1 stringValue=\"${useOTKDB}\"/>\n            <L7p:Expression2 stringValue=\"false\"/>\n            <L7p:Predicates predicates=\"included\">\n                <L7p:item binary=\"included\">\n                    <L7p:CaseSensitive booleanValue=\"false\"/>\n                    <L7p:RightValue stringValue=\"false\"/>\n                </L7p:item>\n            </L7p:Predicates>\n        </L7p:ComparisonAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

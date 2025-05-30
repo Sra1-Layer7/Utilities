@@ -1,0 +1,12 @@
+{
+  "goid": "f9cd2f1d81588d7ec8e0d4b9631d5913",
+  "guid": "df2a72de-d173-4453-80a7-11e560840b9d",
+  "name": "#OTK Token Introspect Response",
+  "policyType": "FRAGMENT",
+  "checksum": "355b35e39166ab75dae02c5eb4cbd42cf31012b4",
+  "folderPath": "/OTK/Customizations/Token Server",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: #OTK Token Introspect Response\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Customize Token introspect response using this policy\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"token_type_hint variable can be used for customizing token and refresh token response\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "goid": "37a4ab6b7c387a0d250a59237f002fb3",
+  "guid": "ee0d16f3-7101-49f7-b87d-b1bb0ef02d92",
+  "name": "#OTK API XSS Protection",
+  "policyType": "FRAGMENT",
+  "checksum": "06f7c028fa0b2cc369fe7bcae3cd0c3035f84a34",
+  "folderPath": "/OTK/Customizations",
+  "soap": false,
+  "policy": {
+    "xml": "<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: # API XSS Protection Extention\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"By default API Gateway Threat Protection Policy is included\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Customize this policy to add additional protection if necessary\"/>\n        </L7p:CommentAssertion>\n        <L7p:CodeInjectionProtectionAssertion>\n            <L7p:IncludeBody booleanValue=\"true\"/>\n            <L7p:IncludeUrlPath booleanValue=\"true\"/>\n            <L7p:IncludeUrlQueryString booleanValue=\"true\"/>\n            <L7p:Protections codeInjectionProtectionTypeArray=\"included\">\n                <L7p:item protectionType=\"htmlJavaScriptInjection\"/>\n                <L7p:item protectionType=\"hexEncodedInjection\"/>\n            </L7p:Protections>\n            <L7p:Target target=\"REQUEST\"/>\n        </L7p:CodeInjectionProtectionAssertion>\n    </wsp:All>\n</wsp:Policy>"
+  }
+}

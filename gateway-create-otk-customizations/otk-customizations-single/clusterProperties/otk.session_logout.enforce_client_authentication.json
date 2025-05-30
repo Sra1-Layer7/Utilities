@@ -1,0 +1,7 @@
+{
+  "goid": "ebf2739a2fd9cabd787ae8edb085ffc7",
+  "name": "otk.session_logout.enforce_client_authentication",
+  "checksum": "1672f63b58d830c4b6e9b26cb0d986dee8ce4ba6",
+  "hiddenProperty": false,
+  "value": "true"
+}

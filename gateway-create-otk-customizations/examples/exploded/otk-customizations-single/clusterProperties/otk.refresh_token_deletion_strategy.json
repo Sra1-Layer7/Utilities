@@ -1,0 +1,7 @@
+{
+  "goid": "ad8c6bd08fb3f117c8fb018292af268f",
+  "name": "otk.refresh_token_deletion_strategy",
+  "checksum": "bd9226fdcdc7e119f184d7dcea625291e4b1b67c",
+  "hiddenProperty": false,
+  "value": "DELETE"
+}

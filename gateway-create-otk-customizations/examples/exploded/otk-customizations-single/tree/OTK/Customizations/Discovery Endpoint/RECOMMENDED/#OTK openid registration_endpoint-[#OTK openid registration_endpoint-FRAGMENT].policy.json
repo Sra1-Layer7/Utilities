@@ -1,0 +1,12 @@
+{
+  "goid": "f89167f8313de549f22cba18da490551",
+  "guid": "ed8f7bf6-eb53-4f07-b261-edebc5ffd8fa",
+  "name": "#OTK openid registration_endpoint",
+  "policyType": "FRAGMENT",
+  "checksum": "3500706e2652d3c530ac873697ffb8114f23c1ca",
+  "folderPath": "/OTK/Customizations/Discovery Endpoint/RECOMMENDED",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Target Configuration Policy: &quot;OTK openid registration_endpoint&quot;\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Set custom values for Context Variables below ===\"/>\n        </L7p:CommentAssertion>\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"=== Add any new Context Variables or extensions below ===\"/>\n        </L7p:CommentAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

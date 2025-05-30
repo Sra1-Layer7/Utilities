@@ -1,0 +1,12 @@
+{
+  "goid": "16cbb9cfd08527227e8b9fcda61cefbc",
+  "guid": "1f46cbec-c6d9-4e6a-a1b9-dec74c227df5",
+  "name": "#OTK Refresh Token Validation Grant Type Check Override",
+  "policyType": "FRAGMENT",
+  "checksum": "578c1c91cfb253252c2eafeabf127fc15dbfc51a",
+  "folderPath": "/OTK/Customizations",
+  "soap": false,
+  "policy": {
+    "xml": "<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: #OTK Refresh Token Validation Grant Type Check Override\"/>\n        </L7p:CommentAssertion>\n        <wsp:OneOrMore wsp:Usage=\"Required\">\n            <L7p:EvaluateJsonPathExpressionV2>\n                <L7p:Evaluator stringValue=\"JsonPath\"/>\n                <L7p:Expression stringValue=\"$.otk.original_grant_type\"/>\n                <L7p:OtherTargetMessageVariable stringValue=\"token_custom\"/>\n                <L7p:Target target=\"OTHER\"/>\n                <L7p:VariablePrefix stringValue=\"original_grant_type\"/>\n            </L7p:EvaluateJsonPathExpressionV2>\n            <L7p:EvaluateJsonPathExpressionV2>\n                <L7p:Evaluator stringValue=\"JsonPath\"/>\n                <L7p:Expression stringValue=\"$.otk.grant_type\"/>\n                <L7p:OtherTargetMessageVariable stringValue=\"token_custom\"/>\n                <L7p:Target target=\"OTHER\"/>\n                <L7p:VariablePrefix stringValue=\"original_grant_type\"/>\n            </L7p:EvaluateJsonPathExpressionV2>\n            <L7p:EvaluateJsonPathExpressionV2>\n                <L7p:Evaluator stringValue=\"JsonPath\"/>\n                <L7p:Expression stringValue=\"$.client_custom.grant_type\"/>\n                <L7p:OtherTargetMessageVariable stringValue=\"token_custom\"/>\n                <L7p:Target target=\"OTHER\"/>\n                <L7p:VariablePrefix stringValue=\"original_grant_type\"/>\n            </L7p:EvaluateJsonPathExpressionV2>\n        </wsp:OneOrMore>\n        <L7p:SetVariable>\n            <L7p:Base64Expression stringValue=\"JHtvcmlnaW5hbF9ncmFudF90eXBlLnJlc3VsdH0=\"/>\n            <L7p:VariableToSet stringValue=\"original_grant_type\"/>\n        </L7p:SetVariable>\n    </wsp:All>\n</wsp:Policy>"
+  }
+}
